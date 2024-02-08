@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #aae4f142;
+  }
+  .container {
+    margin: 30px 100px;
+    padding: 50px;
+    background-color: #fcf3f3;
+    color: #000000ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 5px 50px -5px rgba(69, 71, 71, 0.712);
+  }
+  h1 {
+    margin: 10px 40%;
+  }
+  .faq {
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  .hidden {
+    display: none;
+    color: #334155;
+    padding: 10px;
+  }
+  .popup .hidden {
+    display: block;
+  }
+  .faq-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .button {
+    padding: 7px 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #164e63;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button svg {
+    fill: white;
+  }
